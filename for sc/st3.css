@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@300&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(158, 185, 211);
+    font-family: "Red Hat Mono";
+    font-size: 16px;
+    font-weight: normal;
+}
+
+table {
+    width: 1050px;
+    margin: 15px auto;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+p {
+    width: 1000px;
+    height: 100px;
+    padding: 0 30px;
+    margin: 15px 0;
+    border-left: 5px solid cadetblue;
+    font-size: 24px;
+    line-height: 100px;
+    vertical-align: middle;
+}
+
+p:hover {
+    border-left: 5px solid cyan;
+}
+
+code {
+    color: darkslateblue;
+}
