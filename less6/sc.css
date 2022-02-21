@@ -4,40 +4,11 @@
     box-sizing: border-box;
 }
 
-/*
-.parent {
-    background-color: rgb(158, 185, 211);
-    width: 100%;
-    height: 300px;
-    max-width: 1200px;
-    margin: 30px auto;
-    padding: 0 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.child {
-    background-color: rgb(40, 144, 148);
-    width: 150px;
-    height: 150px;
-    margin: 20px;
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.block {
-    height: 200px;
-    align-self: flex-start;
-}
-*/
-
 .th {
     background-color: lightgreen;
     height: 150px;
+    justify-content: space-between;
+    display: flex;
 }
 
 .qe {
@@ -55,4 +26,66 @@
 .qe2 {
     height: 75px;
     background-color: blue;
+}
+
+.hp {
+    display: flex;
+}
+
+.qe3 {
+    height: 75px;
+    background-color: red;
+    padding: 0px;
+}
+
+.qe4 {
+    height: 75px;
+    background-color: green;
+    padding: 0px;
+}
+
+.qe5 {
+    height: 75px;
+    background-color: blue;
+    padding: 0px;
+}
+
+.qe6 {
+    height: 75px;
+    background-color: yellow;
+    padding: 0px;
+}
+
+.hp1 {
+    display: flex;
+}
+
+.qe7 {
+    height: 75px;
+    background-color: grey;
+    padding: 0px;
+}
+
+.qe8 {
+    height: 75px;
+    background-color: black;
+    padding: 0px;
+}
+
+.qe9 {
+    height: 75px;
+    background-color: red;
+    padding: 0px;
+}
+
+.qe10 {
+    height: 75px;
+    background-color: green;
+    padding: 0px;
+}
+
+.qe11 {
+    height: 75px;
+    background-color: blue;
+    padding: 0px;
 }
