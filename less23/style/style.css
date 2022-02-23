@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@300&display=swap");
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    list-style-type: none;
+}
+
+.container {
+    width: 944px;
+    margin: 0 auto;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px; 
+    text-align: justify;
+    margin-bottom: 31px;
+}
+
+hr {
+    margin-bottom: 40px;
+    width: 944px;
+}
+
+body {
+    background-color: rgb(158, 185, 211);
+    font-family: "Red Hat Mono";
+    width: 100%;
+}
+
+.name {
+    font-size: 47px;
+}
+
+.info {
+    font-size: 18px;
+}
+
+.lenguage {
+    font-size: 16px;
+    transform: rotate(-90deg);
+    color:aliceblue;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.image {
+    background-image: url(../img/tu\ 1.png);
+    height: 385px;
+    background-size: cover;
+    margin-bottom: 103px;
+}
+
+.container_aboutMe {
+    background-color: #B7DCF7;
+    text-align: center;
+    margin: 0 auto;
+    width: 944px;
+    display: block;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.block-2 {
+    background-color: #B7DCF7;
+    width: 100%;
+}
+
+.block-3 {
+    text-align: center;
+    justify-content: space-between;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.stars {
+    display: flex;
+    justify-content: space-between;
+}
+
+.block-4 {
+    text-align: center;
+}
+
+.button {
+    width: 199px;
+    height: 60px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background: #070707;
+    border-radius: 50px;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 93px;
+    margin-top: 63px;
+}
+
+.button a{
+    text-decoration: none;
+    color:whitesmoke;
+}
+
+.img {  
+    width: 342.18px;
+    height: 40.74px;    
+    align-self: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+} 
+
+.icons {
+    width: 100%;
+    margin-bottom: 43px;
+}
+
+.icons-img {
+    width: 945px;
+    margin: 0 auto;
+}
+
+.end {
+    text-align: center;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: indigo;
+}
+
+.Skills {
+    text-align: center;
+    margin-top: 90px;
+}
+
+.Skills-text {
+    margin-bottom: 82px;
+}
+
+#Contacts {
+    margin-top: 69px;
+}
